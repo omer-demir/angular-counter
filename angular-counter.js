@@ -1,6 +1,6 @@
 (function(){
 	'use strict';
-	angular.module('angular-count',[]).directive('count-up',function($interval){
+	angular.module('angular-count',[]).directive('countUp',function($interval){
 		return{
 			scope:{
 				valueToCount:'=',
