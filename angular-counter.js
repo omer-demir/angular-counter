@@ -8,7 +8,7 @@
 			},
 			restrict:'AEC',
 			replace:'true',
-			template:'<div class="well"><p class="text-center">{{startPoint}}</p></div>'
+			template:'<div class="well"><p class="text-center">{{startPoint}}</p></div>',
 			link:function(scope){
 				scope.startPoint = 0;
 
