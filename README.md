@@ -16,3 +16,7 @@ angular.module('app',[angular-count]).controller('baseCntrl',function($scope)
 This code will simply count from 0 to 10 with 10 ms. 
 
 I used only `$interval` dependency for directive.
+
+The sample can be found in codepen
+
+http://codepen.io/omer-demir/pen/wByZRg
