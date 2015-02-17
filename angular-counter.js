@@ -1,6 +1,6 @@
 (function(){
 	'use strict';
-	angular.module('angular-count',[]).directive('countUp',function($interval){
+	angular.module('angularCount',[]).directive('countUp',function($interval){
 		return{
 			scope:{
 				valueToCount:'=',
@@ -29,4 +29,4 @@
 		};
 
 	});
-}());
+}).call(this);
