@@ -2,14 +2,12 @@
 Angular counter is simple counter. With this widget you can easily count 0 to given number. It is easy to use.
 
 ```javascript
-//Javascript side
 angular.module('app',[angular-count]).controller('baseCntrl',function($scope)
   {
     $scope.valueToCount=10;
   });
 ```
 ```html
-//In html
 <div ng-controller="baseCntrl">
   <div count-up value-to-count="valueToCount" speed="10"/>
 </div>
